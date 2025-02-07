@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+<style>
+
+body{
+  font-family: "Poetsen One", serif;
+margin: 0;
+color: aliceblue;
+}
+
+.container{
+  margin: 0;
+  display: grid;
+ height: 100vh;
+  grid-template: 5fr 3fr 6fr 4fr 1fr 1fr / 1fr 4fr 1fr ;
+  
+}
+
+#uno{
+  display: flex;
+  background-color: #03AED2;
+  grid-area: 1/1/2/4;
+align-content: center;
+justify-content: center;
+
+}
+
+#unomezzi{ 
+  background-color: #03AED2;
+  grid-area: 2/1/3/2;}
+#unomezzi2{ 
+  background-color: #03AED2;
+  grid-area: 2/3/3/4;}
+
+#due{ 
+  background-color: #68D2E8;
+  grid-area: 3/1/4/2;
+}
+#duemezzi{ 
+  background-color: #68D2E8;
+  grid-area: 3/3/4/4;
+}
+#tre{ 
+  background-color: #FDDE55;
+  grid-area: 4/1/5/1;
+}
+#tremezzi{ 
+  background-color: #FDDE55;
+  grid-area: 4/3/5/4;
+}
+#quattro{
+  background-color: #FEEFAD;
+  grid-area: 6/1/7/4;
+}
+#quattromezzi{
+  background-color: #FEEFAD;
+  grid-area: 5/1/6/2;
+}
+#quattromezzi2{
+  background-color: #FEEFAD;
+  grid-area: 5/3/6/4;
+
+}
+
+.testo{
+ text-align: center;
+}
+
+#foto{
+  background-color: yellow;
+  background-image: url(/Partitaabbazia_novacella.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: 2/2/6/2;
+}
+
+
+
+</style>
+</head>
+<body>
+<div class="container">
+
+
+
+  <div id="uno"> <h1 class="testo">Complimenti! <br>Hai vinto una partita di beach volley a Novacella</h1>
+    
+  </div>
+  <div id="unomezzi"></div>
+  <div id="unomezzi2"></div>
+  <div id="due"></div>
+  <div id="duemezzi"></div>
+  <div id="tre"></div>
+  <div id="tremezzi"></div>
+  <div id="quattro"></div>
+  <div id="quattromezzi"></div>
+  <div id="foto"></div>
+  <div id="quattromezzi2"></div>
+
+
+</div>
+
+   
+</body>
+</html>
